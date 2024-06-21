@@ -1,0 +1,57 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.table-scrollable {
+    height: 500px;
+    width: 600px;
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.table-scrollable > .table {
+    width: 100%;
+}
+
+.table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    font-size: 18px;
+    width: 600px;
+    background-color: #ffffff;
+}
+
+.table th {
+    background-color: #b10064;
+    color: #ffffff;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+    padding: 10px 12px;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #eeeeee;
+}
+
+.table tbody tr.active-row {
+    font-weight: bold;
+    color: #000000;
+}
+
+.td-year-center {
+    text-align: center;
+}
